@@ -1,0 +1,8 @@
+{:source-paths ["src"]
+
+ :dependencies [[reagent "0.8.1"]]
+
+ :builds {:app
+          {:target :npm-module
+           :entries [app.core]
+           :output-dir "build"}}}

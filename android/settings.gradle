@@ -1,0 +1,3 @@
+rootProject.name = 'shadowhaul'
+
+include ':app'
